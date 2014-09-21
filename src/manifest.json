@@ -1,0 +1,19 @@
+{
+  "name": "QRcodeURL",
+  "version": "1.0.0",
+  "manifest_version":2,
+  "background": {
+    "scripts": [
+      "main.js"
+    ]
+  },
+  "description": "URL生成二维码",
+  "page_action": {
+    "default_icon": "icon.png",
+    "default_title": "URL二维码",
+    "default_popup": "index.html"
+  },
+  "permissions": [
+    "tabs"
+  ]
+}
